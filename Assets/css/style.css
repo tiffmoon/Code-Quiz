@@ -1,0 +1,82 @@
+/* header */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    background: #359dff;
+    color: #fff;
+    border-bottom:30px #91e600;
+  }
+
+h1 {
+    font-size: 250%;
+}
+
+body {
+    background-color: #359dff;
+}
+
+button {
+    background: radial-gradient(circle, rgb(28, 172, 216) 0%, rgba(35, 236, 125, 0.954) 100%);
+    border-radius: 8px;
+    color: #e4eef8;
+    cursor: pointer;
+    font-size: 1em;
+    letter-spacing: 0.21px;
+    line-height: 16px;
+    max-width: 255px;
+    padding: 20px 52px;
+    text-align: center;
+    transition-duration: 0.15s;
+    transition-property: background-color;
+    transition-timing-function: linear;
+    margin-top: 0.6em;
+    
+
+  }
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .time {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      padding: 10px;
+      margin-right: 10px;
+
+  }
+
+  button:hover {
+    background: radial-gradient(circle, rgba(35, 236, 125, 0.954) 0%, rgb(28, 172, 216) 100%);
+    border-radius: 8px;
+    color: #e4eef8;
+    cursor: pointer;
+    font-size: 1em;
+    letter-spacing: 0.21px;
+    line-height: 16px;
+    max-width: 255px;
+    padding: 20px 52px;
+    text-align: center;
+    transition-duration: 0.15s;
+    transition-property: background-color;
+    transition-timing-function: linear;
+    margin-top: 0.6em;
+  }
+
+  .button-choice {
+    font-size: 1em;
+  }
+  .quiz {
+    text-align: center;
+    color: white;
+    font-size: 150%;
+
+  }
